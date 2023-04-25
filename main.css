@@ -90,6 +90,18 @@ body {
     font-size: 50px;
  }
 
+.main-oferecidos  {  
+    color: #050303;
+    padding-top: 50px;
+    height: 500px;
+
+}
+.oferecidos {
+    height: 500px;
+    align-items: center;
+}
+
+
 
 
 
