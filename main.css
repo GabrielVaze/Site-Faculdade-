@@ -90,20 +90,180 @@ body {
     font-size: 50px;
  }
 
-.main-oferecidos  {  
-    color: #050303;
+
+
+
+ .choose-section .title-section, #soon-services-section .title-section {
+    padding-bottom: 80px;
+  }
+  
+  .choose-image, .soon-services-image {
+    text-align: center;
+  }
+  
+  ul.choose-list, ul.soon-list {
+    list-style: none;
+    padding: 0;
     padding-top: 50px;
-    height: 500px;
+  }
+  
+  ul.choose-list li, ul.soon-list li {
+    margin-bottom: 30px;
+  }
+  
+  .iconbox {
+    float: left;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+  }
+  
+  .iconbox i {
+    font-size: 32px;
+    color: #fc6e51
+  }
+  
+  .choose-box-content, .soon-box-content {
+    margin-left: 70px;
+  }
+  
+  .choose-box-content h6, .soon-box-content h6 {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+  }
 
-}
-.oferecidos {
-    height: 500px;
-    align-items: center;
-}
 
 
-
-
-
-
-
+  .projects-section {
+    padding: 100px 0 80px 0!important;
+  }
+  
+  #projects-section .title-section {
+    padding-bottom: 80px;
+  }
+  
+  #type-masory {
+    width: 100%;
+  }
+  
+  #projects-section #type-masory .project {
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  
+  .project-item a {
+    position: relative;
+    display: block;
+  }
+  
+  .project-item a img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+  
+  /*Overlay projects*/
+  
+  .overlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(15, 15, 15, 0.9);
+    opacity: 0;
+    -webkit-transition: all .5s ease;
+       -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+         -o-transition: all .5s ease;
+            transition: all .5s ease;
+  }
+  
+  .overlay .overlay-inner {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+  }
+  
+  .overlay .overlay-inner h3 {
+    color: #F0F0F0;
+    margin-bottom: 15px;
+    -webkit-transition: all .5s;
+       -moz-transition: all .5s;
+        -ms-transition: all .5s;
+         -o-transition: all .5s;
+            transition: all .5s;
+    -webkit-transform: translateY(-30px);
+       -moz-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+         -o-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  
+  .overlay .overlay-inner p {
+    color: #DBDBDB;
+    -webkit-transition: all .5s;
+       -moz-transition: all .5s;
+        -ms-transition: all .5s;
+         -o-transition: all .5s;
+            transition: all .5s;
+    -webkit-transform: translateY(30px);
+       -moz-transform: translateY(30px);
+        -ms-transform: translateY(30px);
+         -o-transform: translateY(30px);
+            transform: translateY(30px);
+    margin-bottom: 15px;
+  }
+  
+  a:hover .overlay .overlay-inner h3 {
+    -webkit-transform: translateY(0);
+       -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+         -o-transform: translateY(0);
+            transform: translateY(0);
+  }
+  
+  a:hover .overlay .overlay-inner p, a:hover .overlay .overlay-inner span {
+    -webkit-transform: translateY(0);
+       -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+         -o-transform: translateY(0);
+            transform: translateY(0);
+  }
+  
+  .overlay-inner span {
+    font-size: 42px;
+    color: #DBDBDB;
+    font-weight: 300;
+    -webkit-transition: all .7s;
+       -moz-transition: all .7s;
+        -ms-transition: all .7s;
+         -o-transition: all .7s;
+            transition: all .7s;
+    -webkit-transform: translateY(30px);
+       -moz-transform: translateY(30px);
+        -ms-transform: translateY(30px);
+         -o-transform: translateY(30px);
+  }
+  
+  a:hover .overlay {
+    opacity: 1;
+  }
+  
+  .view-more {
+    text-align: center;
+    padding-top: 60px;
+  }
+  
+  #masonry-projects-section {
+    padding: 0 0 100px 0;
+  }
+  
+  #masonry-projects-section #type-masory .project {
+    padding-bottom: 30px;
+  }
