@@ -52,19 +52,40 @@ body {
     margin-left: 15px;
     
 }
-.main-banner {
+
+
+#main-banner {
     height: 80vh;
     background-size: cover;
-    padding-top: 15vh;
-}
-.banner-info {
+    padding-top:25vh;
+ background-color: rgb(245, 248, 248);
+
+ 
+ }
+ 
+ #banner-info {
     width: 40%;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
     color: black;
-    padding: 50px
-}
+    padding: 40px;
+    font-size: 23px;
 
+ }
+
+ #banner-info p {
+    text-align: center;
+    font-weight: bolder;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+ 
+ }
+
+ #banner-info h1 {
+    font-size: 50px;
+ }
 
 
