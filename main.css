@@ -139,7 +139,9 @@ h2 {
  }
  
  /* fim do about */
- /*começo parte 3 */
+
+ 
+ /*começo skill */
  h3 {
   font-size: 50px;
   color: rgb(0, 0, 0);
@@ -149,10 +151,7 @@ h2 {
   
  }
 
- .espaço {
-  padding: 5vh;
-
- }
+ 
 
 
 .sobre {
@@ -194,6 +193,12 @@ h2 {
   padding: 13vh 70px;
 }
 
+.espaço {
+  padding: 5vh;
+
+ }
+
+ /*fim da skill*/
 
 
 
