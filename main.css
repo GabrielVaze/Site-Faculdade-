@@ -143,7 +143,7 @@ h2 {
  
  /*começo skill */
  h3 {
-  font-size: 50px;
+  font-size: 60px;
   color: #050303;
   font-weight: bolder;
   font-family: arial;
@@ -153,12 +153,12 @@ h2 {
  
 .sobre {
   background: linear-gradient(120deg, green, #53f36e);
-  height: 85vh;
+  height: 83vh;
 }
 
 .sobre p {
   font-size: 20px;
-  margin-left: 30%;
+  margin-left: 32%;
 }
 
 .chamada-sobre h3,p {
@@ -169,11 +169,11 @@ h2 {
 
 
 .main {
-  display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 200px;
-    gap: 10px;
+    
     
   }
 
@@ -189,7 +189,7 @@ h2 {
   border: transparent;
   padding: 13vh 70px;
   transition: all .3s ease;
-  border-radius: 100px;
+  
 }
 
 .card:hover {
