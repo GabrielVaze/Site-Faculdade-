@@ -144,20 +144,21 @@ h2 {
  /*começo skill */
 
 
- 
+
+
  h4 {
- 
   font-size: 60px;
   color: #050303;
   font-weight: bolder;
   font-family: arial;
-  margin-left: 34%;
+ text-align: center;
 
  }
 
  .nome p {
   font-size: 20px;
   margin-left: 32%;
+  
 }
 
 
