@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2? família= Jura:wght@500 &family= Open+Sans:wght@300;400;600;700;800 & family= Roboto:wght@300;700 & display= trocar');
+
 
 /* barra de navegação */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Jura', sans-serif;
 }
 
 body {
@@ -173,8 +174,8 @@ h2 {
 .tudo {
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  background-color: rgb(10, 156, 10);
+  min-height: 80vh;
+  background-color: rgb(64, 207, 64);
 }
 
 .container {
@@ -206,9 +207,8 @@ h2 {
 }
 
 .container .card .imagem1 {
-  background-image: url(/img/camera1.png);
-  width: 300px;
-  height: 600px;
+  background-image: url();
+
 }
 
 .container .card .imagem2 {
@@ -226,7 +226,7 @@ h2 {
   padding: 20px;
   text-align: center;
   transform: translateY(50px);
-  opacity: 0;
+  opacity: 1;
   transition: 0.5s;
 
 }
