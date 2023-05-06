@@ -206,25 +206,23 @@ h2 {
 }
 
 .container .card .imagem1 {
-  background-image: url(/img/img1.jpeg);
-  width: 500px;
+  background-image: url(/img/camera1.png);
+  width: 300px;
   height: 600px;
 }
 
 .container .card .imagem2 {
-  background-image: url(/img/img2.jpeg);
-  width: 500px;
-  height: 600px;
+  background-image: url();
+
 }
 
 .container .card .imagem3 {
-  background-image: url(/img/img3.jpeg);
-  width: 500px;
-  height: 600px;
+  background-image: url();
+
 }
 
 .container .card .content {
-  display: block;
+  display: inline-block;
   padding: 20px;
   text-align: center;
   transform: translateY(50px);
@@ -239,23 +237,23 @@ h2 {
 }
 
 .container .card .content h2 {
-  position: blocl;
+  position: block;
   top: -80px;
   right: 30px;
   font-size: 8em;
-  color: rgba(255,255,255,0.5);
+  color: rgb(255, 255, 255);
   pointer-events: none;
 }
 
 .container .card .content h3 {
   font-size: 1.8em;
-  color: #fff;
+  color: #ffffff;
   z-index: 1;
 }
 
 .container .card .content p {
   font-size: 1em;
-  color: #fff;
+  color: #ffffff;
   font-weight: 300;
   display: block;
 }
