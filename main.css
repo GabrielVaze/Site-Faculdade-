@@ -245,3 +245,34 @@ h2 {
 }
 
 /* Fim das skills*/
+
+.todo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background: #050303;
+  border-radius: 5px;
+  
+}
+
+.content h1 {
+  color: green
+}
+
+.content p {
+  font-size: 30px;
+  color: white
+}
+
+.content h2 {
+  color: green;
+  font-size: 35px;
+  margin-left: 0;
+}
+
+.content image {
+  display: flex;
+  margin-top: 50px;
+
+}
