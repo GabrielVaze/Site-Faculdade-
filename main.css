@@ -16,8 +16,8 @@ body {
 }
 
 .header {
-    background: transparent;
-    position: fixed;
+    background: linear-gradient(120deg,white, #D3D3D3);
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -26,34 +26,35 @@ body {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+  
 }
 .logo {
-    font-size: 25px ;
-    color: white ;
-    text-decoration: none;
-    font-weight: 600;
+  font-size: 25px ;
+  color: white ;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .navbar a {
-    font-size: 18px;
-    color: black;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 35px;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
 }
 
 .logos {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 92%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-    margin-left: 15px;
-    
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 92%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  margin-left: 15px;
+  
 }
 
 
@@ -273,6 +274,7 @@ h2 {
 }
 
 .imgfinal {
+  mix-blend-mode: color-burn;
   gap: 10px;
   display: flex;
   padding-right: 15vh;
@@ -280,6 +282,7 @@ h2 {
 }
 
 .redes-sociais {
+ 
   float: right;
   display: flex;
   padding: 20px;
