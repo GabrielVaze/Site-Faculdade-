@@ -29,6 +29,7 @@ body {
   
 }
 .logo {
+  background: transparent;
   font-size: 25px ;
   color: white ;
   text-decoration: none;
