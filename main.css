@@ -277,3 +277,22 @@ h2 {
   padding: 20px;
   gap: 10px;
 }
+
+
+footer .btn.btn-social {
+  margin-right: 5px;
+  width: 305px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--light);
+  border: 1px solid #FFFFFF;
+  border-radius: 35px;
+  transition: .3s;
+}
+
+.footer .btn.btn-social:hover {
+  color: var(--primary);
+}
+
