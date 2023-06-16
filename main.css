@@ -77,13 +77,16 @@ body {
 }
 
 /* carossel */
-
+.carousel-slide {
+  margin: 0;
+}
 .banner {
   height: 180vh;
 }
 .banner-tudo {
   height: 60vh;
 }
+/* Fim carossel */
 
 
 /* começo about */
@@ -487,7 +490,7 @@ footer {
 #main_slider a.carousel-control-next {
   right: -50px;
   top: 95px;
-  color: #fefefd;
+  color: #0de40d;
   background-color: #4a4949;
 }
 
@@ -497,7 +500,7 @@ footer {
   height: 55px;
   opacity: 1;
   font-size: 16px;
-  color: #4a4949;
+  color: #0edb31;
   background-color: #efefef;
 }
 
@@ -505,7 +508,7 @@ footer {
 #main_slider .carousel-control-next:hover,
 #main_slider .carousel-control-prev:focus,
 #main_slider .carousel-control-prev:hover {
-  color: #fefefd;
+  color: #1de00b;
   background-color: #4a4949;
 }
 
