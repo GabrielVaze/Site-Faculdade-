@@ -76,17 +76,7 @@ body {
   
 }
 
-/* carossel */
-.carousel-slide {
-  margin: 0;
-}
-.banner {
-  height: 180vh;
-}
-.banner-tudo {
-  height: 60vh;
-}
-/* Fim carossel */
+
 
 
 /* começo about */
@@ -95,9 +85,6 @@ body {
   color: #050303;
   padding-top: 150px;
   height: 450px;
-
-  
-  
 
 }
 .oferecidos {
@@ -112,6 +99,7 @@ body {
 h2 {
   font-size: 25px;
   margin-left: 100px;
+  margin-top: -70px;
 }
 
 #oferecidos ul {
@@ -138,6 +126,7 @@ h2 {
 
 
  h4 {
+  
   font-size: 50px;
   color: #000000;
   font-weight: bolder;
@@ -407,7 +396,8 @@ footer {
   width: 100%;
   float: left;
   height: 700px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
+
 }
 
 .coffee_taital {
@@ -426,6 +416,7 @@ footer {
   margin: 0 auto;
   text-align: center;
   padding-top: 40px;
+
 }
 
 .bulit_icon {
