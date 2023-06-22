@@ -1,29 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
-    body {
-      height: 2000px; /* Apenas para criar uma página maior para fins de demonstração */
-    }
-    
-    .scroll-link {
-      color: blue;
-      text-decoration: underline;
-      cursor: pointer;
-    }
-  </style>
+    <style>
+        #footer {
+            height: 500px; /* Apenas para criar espaço para visualização */
+        }
+    </style>
 </head>
 <body>
-  <p>Clique no texto abaixo para fazer a página descer:</p>
-  <p class="scroll-link" onclick="scrollPage()">Desça a página</p>
+    <p>Clique <a href="#" id="scroll-link">aqui</a> para rolar até o rodapé.</p>
 
-  <script>
-    function scrollPage() {
-      window.scrollBy({
-        top: window.innerHeight,
-        behavior: 'smooth'
-      });
-    }
-  </script>
+    <!-- Conteúdo da página -->
+
+    <div id="footer">
+        <!-- Rodapé da página -->
+    </div>
+
+    <script>
+        document.getElementById('scroll-link').addEventListener('click', function() {
+            var footerPosition = document.getElementById('footer').offsetTop;
+            window.scrollTo({ top: footerPosition, behavior: 'smooth' });
+        });
+    </script>
 </body>
 </html>
