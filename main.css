@@ -86,13 +86,15 @@ body {
   color: #050303;
   padding-top: 150px;
   height: 450px;
+  
 
 }
 .oferecidos {
-  
+ 
   height: 500px;
   align-items: center;
   padding: 60vh;
+  
 }
 .destaque {
   text-decoration: none;
