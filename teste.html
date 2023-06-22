@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      height: 2000px; /* Apenas para criar uma página maior para fins de demonstração */
+    }
+    
+    .scroll-link {
+      color: blue;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <p>Clique no texto abaixo para fazer a página descer:</p>
+  <p class="scroll-link" onclick="scrollPage()">Desça a página</p>
+
+  <script>
+    function scrollPage() {
+      window.scrollBy({
+        top: window.innerHeight,
+        behavior: 'smooth'
+      });
+    }
+  </script>
+</body>
+</html>

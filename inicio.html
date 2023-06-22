@@ -16,7 +16,7 @@
     <nav class="navbar">
         <a href="inicio.html">Inicio</a>
         <a href="#">Parceiros</a>
-        <a href="#">Fale conosco</a>
+        <a class="scroll-link" onclick="scrollPage()">Fale conosco</a>
 
     </nav>
 </header>
@@ -59,4 +59,16 @@
     <p>&copy; 2023 - Todos os direitos reservados</p>
   </footer>
 </body>
+
+
+
+
+<script>
+  function scrollPage() {
+    window.scrollBy({
+      top: window.innerHeight,
+      behavior: 'smooth'
+    });
+  }
+</script>
 
