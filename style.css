@@ -5,72 +5,7 @@ body {
   }
   
   
-  
-  section {
-    margin: 20px;
-  }
-  
-   .quemsomos {
-    background-color: rgb(73, 235, 73);
-    text-align: center;
-    color: #020202;
-  }
-
-  
-  p {
-    text-align: center;
-    color: #000000;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  li {
-    margin-bottom: 10px;
-  }
-  
-  footer {
-    background-color: #000000;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-  }
-
-  .cubo {
-    background-color: #c4f1b9;
-    width: 800px;
-    height: 500px;
-    margin-right: 40px;
-    border-radius: 10px;
-  }
-
-
-
-  .cubo2 {
-    background-color: #c4f1b9;
-    width: 800px;
-    height: 500px;
-    border-radius: 10px;
-   
-  }
-  .tudo3 {
-    display: flex;
-    gap: 20;
-    align-items: center;
-    justify-content: center;
-  }
-  h3 {
-    text-align: center;
-  }
-  
-
-
-
-
-
-
+  /* começo da barra de navegação*/
 
   .header {
     background: rgb(56, 150, 56);
@@ -131,3 +66,83 @@ body {
   margin-left: 15px;
   
 }
+
+/* fim da barra de navegação*/
+
+
+
+
+/* começo de quem somos*/
+  section {
+    margin: 20px;
+  }
+  
+   .quemsomos {
+    background-color: rgb(73, 235, 73);
+    text-align: center;
+    color: #020202;
+  }
+
+  
+  p {
+    text-align: center;
+    color: #080808;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  /* fim de quem somos*/
+
+  /* começo de quem é aguinaldo*/
+  .cubo {
+    background-color: #c4f1b9;
+    width: 800px;
+    height: 500px;
+    margin-right: 40px;
+    border-radius: 10px;
+  }
+
+
+
+  .cubo2 {
+    background-color: #c4f1b9;
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+   
+  }
+  .tudo3 {
+    display: flex;
+    gap: 20;
+    align-items: center;
+    justify-content: center;
+  }
+  h3 {
+    text-align: center;
+  }
+
+/* fim de quem é aguinaldo*/
+
+/* começo do footer*/
+  footer {
+    background-color: #0c0909;
+    color: #948e8e;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .footer1 p {
+    color: #998e8e;
+  }
+  
+/* fim do footer*/
+
+
+
+
