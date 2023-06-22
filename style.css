@@ -19,7 +19,7 @@ body {
   
   p {
     text-align: center;
-    color: #666;
+    color: #000000;
   }
   
   ul {
@@ -32,7 +32,7 @@ body {
   }
   
   footer {
-    background-color: #333;
+    background-color: #000000;
     color: #fff;
     padding: 10px;
     text-align: center;
