@@ -11,7 +11,7 @@ body {
     position: relative;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100;
     padding: 2px 10%;
     display: flex;
     justify-content: space-between;
@@ -67,7 +67,7 @@ body {
 }
   /* fim da barra de navegação*/
 
-/* começo de parceiros */
+
     h1 {
     margin: 20px;
     background-color: rgb(73, 235, 73);
@@ -102,4 +102,4 @@ body {
       padding: 5px;
     }
 
-    /* Fim de parceiros */
+    
