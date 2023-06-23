@@ -67,7 +67,7 @@ body {
 }
   /* fim da barra de navegação*/
 
-
+/* começo dos pareciros*/
     h1 {
     margin: 20px;
     background-color: rgb(73, 235, 73);
@@ -101,5 +101,5 @@ body {
       border: 1px;
       padding: 5px;
     }
-
+/* fim dos pareciros*/
     
